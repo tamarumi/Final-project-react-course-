@@ -1,0 +1,147 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-extrasquare/css/bpg-extrasquare.min.css");
+.homePage{
+    background-color: rgb(244, 244, 244);
+    width: 96%;
+    height: 80%;
+    margin: 30px;
+    font-family: "BPG ExtraSquare", sans-serif;
+}
+.homePage h2{
+    font-size: 25px;
+    color: #54595F
+}
+.homePage p{
+    font-size: 16px;
+    color: #54595F
+}
+.ourposts{
+    text-align: center;
+    align-items:center;
+    margin:20px;
+}
+.ourposts hr{
+    width: 5%;
+    height: 3px;
+    background-color: rgba(255, 157, 0, 0.915);
+    border-color: rgba(255, 157, 0, 0.915);
+    border-radius: 3px;
+}
+.Posts{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.currentPost{
+    background-color: white;
+    width: 25%;
+    padding: 0px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+#img {
+    width:100%;
+    height:auto;
+}
+.text {
+    padding: 12px;
+}
+#title {
+    color: rgba(255, 157, 0, 0.915); 
+    text-decoration: none;
+}
+#title:hover{
+    color: rgba(212, 131, 0, 0.915); ;
+}
+.text-link{
+    text-decoration: none;
+    color:  rgba(255, 157, 0, 0.915); ;
+}
+.text-link:hover{  
+    text-decoration: underline;
+    color: rgba(212, 131, 0, 0.915); 
+}
+.navbar  {
+    display: flex;
+    width: 80%;
+    justify-content: center
+}
+#logo{
+    width: 10%;
+    height:42px;
+    padding:0px 210px 0px 0px;
+    margin: 0px
+}
+.login{
+    padding:15px 220px;
+}
+.form {
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    font-family: "BPG ExtraSquare", sans-serif;
+    display: flex;
+    align-items: center;
+}
+#loginpic {
+    width: 50%;
+    padding: 0px 100px;  
+}
+#error{
+    padding: 0px 225px;
+    margin: 0px;
+    color: rgb(163, 20, 20);
+    font-family: "BPG ExtraSquare", sans-serif;
+}
+input[type=text], [type=password] {
+    width: 115%;
+    padding: 7px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text]:hover, [type=password]:hover{
+    background-color: #dfe0e3;
+    border-color: black;
+    cursor: pointer;
+}
+#btn {
+    width: 25%;
+    background-color: rgba(255, 157, 0, 0.915); 
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 140px;
+    border: none;
+    cursor: pointer;
+  }
+#btn:hover{
+    background-color: rgba(212, 131, 0, 0.915);
+}
+.hr{
+    width: 90% !important;
+    height:1px; 
+    color:rgb(220, 217, 217);
+    margin-top: -10px;
+}
+#currentPic{
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 5%;
+}
+.currentContent{
+    padding: 200px 480px;
+}
+.current {
+    margin-bottom: 100px;
+}
+#div{
+    background-color: rgb(178, 159, 156);
+    width: 90%;
+    height: 300px;
+    margin: 1rem;
+    padding: 0px 45px;
+    position: absolute
+}
+
